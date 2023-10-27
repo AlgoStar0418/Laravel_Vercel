@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "esnext",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "esnext.asynciterable",
+      "esnext.intl",
+      "es2017.intl",
+      "es2018.intl"
+    ],
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "noImplicitAny": false,
+    "resolveJsonModule": true,
+    "baseUrl": "./"
+  },
+  "include": ["./**/*"],
+  "exclude": ["node_modules"]
+}

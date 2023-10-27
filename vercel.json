@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "NFT-Transfer",
+  "builds": [{ "src": "server.ts", "use": "@vercel/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "/server.ts" }]
+}
